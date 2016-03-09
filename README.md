@@ -2,7 +2,7 @@
 Scripting language supporting goroutine.
 
 ## Execute sample 
-run `make` to compile interpreter and execute first.sample.code
+run `make` to compile interpreter and execute [first.sample.code](first.sample.code)
 ```
 $ make
 ...
