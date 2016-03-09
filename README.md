@@ -1,5 +1,9 @@
-# first
+## About
 Scripting language supporting goroutine.
+
+## Requirement
+* golang1.4 or later
+* Linux/Mac/UNIX
 
 ## Execute sample 
 run `make` to compile interpreter and execute [first.sample.code](first.sample.code)
