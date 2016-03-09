@@ -1,0 +1,54 @@
+puts "putting abc..."
+abc = 3200
+puts abc
+
+puts "putting foo..."
+foo = 46
+puts foo
+
+
+s = "hello world"
+puts s
+
+
+sleep 200
+
+{
+	puts "in block..."
+	subvar = 20000
+	puts subvar
+	puts "in block...done"
+
+}
+
+gor {
+	puts "in goroutine...1"
+	sleep 200
+	puts "in goroutine...1"
+	sleep 200
+	puts "in goroutine...1"
+	sleep 200
+	puts "goroutine1 exit"
+	puts "in goroutine...1"
+	sleep 200
+	puts "in goroutine...1"
+	sleep 200
+	puts "in goroutine...1"
+	sleep 200
+	puts "goroutine1 exit"
+}
+
+gor {
+	puts "in goroutine...2"
+	sleep 500
+	puts "in goroutine...2"
+	sleep 500
+	puts "in goroutine...2"
+	sleep 500
+	puts "goroutine2 exit"
+}
+
+
+sleep 3000
+puts "done!"
+
